@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SecondTask</string>
+    <string name="odinakachi_nnuforole">Odinakachi Nnuforole</string>
+    <string name="cuteod">Cuteod</string>
+    <string name="nnuforole_odinaka_gmail_com">nnuforole.odinaka@gmail.com</string>
+    <string name="listening_to_music">Listening to Music</string>
+    <string name="watching_movies">Watching movies</string>
+    <string name="hanging_out_with_friends">Hanging out with friends</string>
+    <string name="calculations_arithematics">Calculations/Arithematics</string>
+    <string name="lies">Lies</string>
+    <string name="pride">Pride</string>
+    <string name="likes">Likes:</string>
+    <string name="dislikes">Dislikes:</string>
+    <string name="hobbies">Hobbies:</string>
+    <string name="tourism">Tourism</string>
+    <string name="cooking">Cooking</string>
+    <string name="todo">TODO</string>
+</resources>

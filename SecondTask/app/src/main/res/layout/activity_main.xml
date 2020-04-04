@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nigeriaFlag"
+            android:layout_width="50dp"
+            android:layout_height="74dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitXY"
+            android:drawingCacheQuality="auto"
+            android:padding="5dp"
+            android:src="@drawable/nigeria_flag"
+            android:contentDescription="@string/todo">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/crownImage"
+            android:layout_width="50dp"
+            android:layout_height="28dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="clip_horizontal"
+            android:padding="2dp"
+            android:src="@drawable/ic_star_black_24dp"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/hotImage"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:scaleType="fitCenter"
+            android:padding="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/ic_whatshot_black_24dp"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/myPic"
+            android:layout_width="98dp"
+            android:layout_height="78dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:src="@drawable/my_pic2"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/EtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odinakachi_nnuforole"
+            android:textSize="20sp"
+            android:autofillHints="name"
+            tools:targetApi="o">
+
+        </TextView>
+        <TextView
+            android:id="@+id/EtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuteod"
+            android:textSize="20sp"
+            android:autofillHints="username">
+
+        </TextView>
+        <TextView
+            android:id="@+id/EtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nnuforole_odinaka_gmail_com"
+            android:textSize="20sp"
+            android:autofillHints="email">
+
+        </TextView>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_margin="2dp">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/likes"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/likes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/listening_to_music"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/likes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/watching_movies"
+                    android:textSize="20sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/likes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/hanging_out_with_friends"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/likes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/calculations_arithematics"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/dislikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/dislikes"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/dislikes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/lies"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/dislikes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:gravity="start"
+                    android:text="@string/pride"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/hobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/hobbies"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/hobbies1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/tourism"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/hobbies2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/cooking"
+                    android:textSize="20sp">
+
+                </TextView>
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/moreImage"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/favImage"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:scaleType="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/panoramaImage"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_panorama_black_24dp"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>
